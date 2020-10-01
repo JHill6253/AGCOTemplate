@@ -20,7 +20,7 @@ const CompanyOptions = [
     key:'ADCO',
   text:'ADCO',
   value:'ADCO',
-  image:'https://www.agcocorp.com/content/agcocorp/en_US/_jcr_content/headermainparsys/header/logoimage.img.png/1599773251999.png'
+  image:'https://www.agcofinance.net/siteart/new-logo.png'
   },
   {
     key:'Mahindra',
@@ -170,7 +170,7 @@ export default class App extends Component {
                               
                   </Dropdown>
               
-              <Button icon='font' o/>
+              <Button icon='font' />
 
               
             </Menu.Menu>
@@ -188,7 +188,7 @@ export default class App extends Component {
               
               <div  >
                 
-                <h1 ><span className='h1_bold'>See how much financing</span> <span className='h1_light'> you qualify for.</span> </h1>
+                <h1 ><span className='h1_bold'></span> <span className='h1_light'> </span> </h1>
                 
               </div>
               {/*<br/>
@@ -320,7 +320,7 @@ export default class App extends Component {
                             
                     <div style={{backgroundColor:'#ffffff'}} >
                       <div style={{border:'5px solid',borderColor: '#c00031'}} >
-                            <h1  style={{textAlign:'center', color:'#fff' ,backgroundColor:'#c00031', padding:'10px'}}>Credit Calculator</h1>
+                            <h1  style={{textAlign:'center', color:'#fff' ,backgroundColor:'#c00031', padding:'10px'}}></h1>
                             
                           <Form style={{padding: '20px'}} >
                           <Container >
@@ -474,19 +474,6 @@ export default class App extends Component {
                   
                                 </Form.Group>
                                 <Form.Group widths='equal'>
-                                <Form.Field required>
-                                      <label style={{
-                                          color: '#666666',
-                                          size:'16px',
-                                          fontWeight: 'normal',
-                                          fontFamily: '"Effra", Arial, sans-serif'}}>
-                                          Date of Birth
-                                        </label>
-                                        <DateInput
-                                        placeholder='Date of Birth'
-
-                                        name='Email' type='text' font='arial'/>
-                                  </Form.Field>
                                   <Form.Field required>
                                       <label style={{
                                           color: '#666666',
@@ -500,6 +487,37 @@ export default class App extends Component {
 
                                         name='Email' type='text' font='arial'/>
                                   </Form.Field>
+                                  <Form.Field required>
+                                        <label style={{
+                                            color: '#666666',
+                                            size:'16px',
+                                            fontWeight: 'normal',
+                                            fontFamily: '"Effra", Arial, sans-serif'}}>
+                                            Confirm Email 
+                                          </label>
+                                          <Input
+                                          placeholder='Confirm Email'
+
+                                          name='Phone' type='text' font='arial'/>
+                                  </Form.Field>
+                  
+                  
+                                </Form.Group>
+                                <Form.Group widths='equal'>
+                                <Form.Field required>
+                                      <label style={{
+                                          color: '#666666',
+                                          size:'16px',
+                                          fontWeight: 'normal',
+                                          fontFamily: '"Effra", Arial, sans-serif'}}>
+                                          Date of Birth
+                                        </label>
+                                        <DateInput
+                                        placeholder='Date of Birth'
+
+                                        name='Email' type='text' font='arial'/>
+                                  </Form.Field>
+
                                   <Form.Field required>
                                         <label style={{
                                             color: '#666666',
